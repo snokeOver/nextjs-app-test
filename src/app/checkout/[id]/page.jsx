@@ -46,7 +46,7 @@ const CheckOut = ({ params }) => {
       `${process.env.NEXT_PUBLIC_BASEURL}/checkout/api`,
       credentials
     );
-    console.log(data);
+    // console.log(data);
   };
 
   return (

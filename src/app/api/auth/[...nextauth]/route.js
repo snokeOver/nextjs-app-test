@@ -52,7 +52,7 @@ const handler = NextAuth({
             const response = await userCollection.insertOne(newUser);
           }
         } catch (error) {
-          console.log(error.message);
+          // console.log(error.message);
           return false;
         }
       }

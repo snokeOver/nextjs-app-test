@@ -9,6 +9,6 @@ export const connectDB = async () => {
     db = client.db("next-car-doctor");
     return db;
   } catch (error) {
-    console.log(error.message);
+    // console.log(error.message);
   }
 };
