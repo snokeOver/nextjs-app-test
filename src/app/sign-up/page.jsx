@@ -115,7 +115,7 @@ const SignUp = () => {
           <SocialLogIn />
           <div className="my-6 text-sm">
             <Link href={"/login"}>
-              Don't have an Account?
+              Do not have an Account?
               <span className="text-blue-600"> Log In</span>
             </Link>
           </div>

@@ -10,7 +10,7 @@ const SocialLogIn = () => {
 
   useEffect(() => {
     if (session?.status === "authenticated") router.push("/");
-  }, [session?.status]);
+  }, [session?.status, router]);
 
   return (
     <div className="flex gap-8 items-center justify-center text-3xl">

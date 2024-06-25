@@ -13,7 +13,8 @@ const Services = async () => {
         <h1 className="text-4xl font-bold">Our Service Area</h1>
         <p className="text-gray-400 w-full md:w-1/2 mx-auto">
           The majority have suffered alteration in some form, by injected
-          humour, or randomised words which don't look even slightly believable.{" "}
+          humour, or randomised words which do not look even slightly
+          believable.{" "}
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
